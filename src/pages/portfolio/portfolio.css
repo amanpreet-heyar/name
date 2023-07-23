@@ -108,3 +108,54 @@
 .item__details{
     font-weight: var(--weight-600);
 }
+
+@media screen and (max-width:1200px) {
+    
+    .portfolio__modal-content{
+        max-width: 600px;
+    }
+
+    .modal__close{
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .portfolio__container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        max-width: 540px;
+    }
+
+    .portfolio__modal-content{
+        padding: 25px 20px;
+    }
+
+    .modal__close{
+        top: -9%;
+        right: 0%;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    
+    .portfolio__container{
+        grid-template-columns: 1fr;
+      }
+    
+      .modal__list{
+        grid-template-columns: 1fr;
+      }
+    
+      .modal__img{
+        height: 300px;
+      }
+}
