@@ -16,7 +16,7 @@ const Home = () => {
       <h1 className='home__title'><span>I'm Amanpreet. </span>
       Frontend Developer</h1>
       <p className='home__description'>
-        I'm a Frontend Developer and i am passionate about building excellent software that improves the lives of those around me.
+        I am a Frontend Developer and i am passionate about building excellent software that improves the lives of those around me.
       </p>
 
       <Link to='/about' className="button">
