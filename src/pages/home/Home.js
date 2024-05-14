@@ -14,9 +14,9 @@ const Home = () => {
    <div className='home__content'>
     <div className='home__data'>
       <h1 className='home__title'><span>I'm Amanpreet </span>
-      Frontend Developer</h1>
+      Full Stack Web Developer</h1>
       <p className='home__description'>
-        I am a Frontend Developer and i am passionate about building excellent software that improves the lives of those around me.
+        I am a Full Stack web Developer and i am passionate about building excellent Websites that improves the lives of those around me.
       </p>
 
       <Link to='/about' className="button">

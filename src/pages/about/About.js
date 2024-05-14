@@ -7,7 +7,7 @@ import './about.css';
 import Skills from '../../components/Skills';
 import { resume } from '../../assets/data';
 import Resume from '../../components/Resume';
-import CV from '../../assets/assets/Amanpreet kaur resume2 (1).pdf';
+import CV from '../../assets/assets/Resume-1.pdf';
 
 const About = () => {
   return (
@@ -16,7 +16,7 @@ const About = () => {
         <h2 className='section__title'>About <span>Me</span></h2>
         <div className="about__container grid">
           <div className='about__info'>
-            <h3 className='section__subtitle'>Personal Infos</h3>
+            <h3 className='section__subtitle'>Personal Info</h3>
 
             <ul className='info__list grid'>
               <Info/>

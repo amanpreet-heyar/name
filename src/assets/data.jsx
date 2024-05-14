@@ -73,7 +73,7 @@ export const personalInfo = [
   {
     id: 3,
     title: 'Age : ',
-    description: '20 Years',
+    description: '21 Years',
   },
 
   {
@@ -114,20 +114,20 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: '1.5+',
-    title: 'Years of <br /> Experience',
+    no: '6',
+    title: 'Months of Industry <br /> Experience',
   },
 
   {
     id: 2,
-    no: '8+',
+    no: '3+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '5+',
-    title: 'Certifications <br /> ',
+    no: '2+',
+    title: ' Internship Certifications <br /> ',
   },
 
 
@@ -138,13 +138,22 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
+    year: 'jan 2024 - present',
+    title: 'Full Stack Web Developer Intern <span> Codmi Technology, Mohali </span>',
+    desc: 'I am doing internship as a Mern stack developer at Codmi Technology , Mohali. Also having hands on experience in Next.js (React.js framework) during internship.',
+  },
+
+  {
+    id: 2,
+    category: 'experience',
+    icon: <FaBriefcase />,
     year: '01/04/23 - 31/05/23',
     title: 'Web Development <span> E cell IIT Hydrabad </span>',
     desc: 'I got 2 months internship in web development from yhills platfrom in collaboration with E-cell IIT hydrabad.',
   },
 
   {
-    id: 2,
+    id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
     year: '01/07/22 - 25/08/22',
@@ -153,21 +162,12 @@ export const resume = [
   },
 
   {
-    id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: 'May 2023',
-    title: 'Internet of Things  <span> skillUp  </span>',
-    desc: 'I have completed couse in IOT from skillUp E-learning platform.',
-  },
-
-  {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2020 - 2024 ',
     title: 'B.Tech CSE <span> Punjabi University, Patiala </span>',
-    desc: 'I got 8.5/10 CGPA in my Engineering degree.',
+    desc: 'Overall CGPA 8.6/10',
   },
 
   {
@@ -186,47 +186,47 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '70',
+    percentage: '80',
   },
 
   {
     id: 2,
     title: 'Javascript',
-    percentage: '45',
+    percentage: '70',
   },
 
   {
     id: 3,
     title: 'Css',
-    percentage: '70',
+    percentage: '75',
   },
 
   {
     id: 4,
-    title: 'C++',
-    percentage: '80',
-  },
-
-  {
-    id: 5,
-    title: 'DSA',
+    title: 'React Js',
     percentage: '60',
   },
 
   {
+    id: 5,
+    title: 'Node Js',
+    percentage: '50',
+  },
+
+  {
     id: 6,
-    title: 'React',
-    percentage: '55',
+    title: 'Mongo DB',
+    percentage: '60',
   },
 
   {
     id: 7,
-    title: 'MySql',
-    percentage: '65',
+    title: 'Next Js',
+    percentage: '50',
   },
   {
     id: 8,
-    title: 'Python',
+    title: 'Bootstrap',
     percentage: '45',
   },
 
@@ -265,6 +265,34 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
+    title: 'E-Charge',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Slot-Booking Website for Petrol-Pumps',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Web framework : ',
+        desc: 'Next.js',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Next.js , Mongo DB',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Map integration: ',
+        desc: 'Open-Layer Maps',
+      },
+    ],
+  },
+
+  {
+    id: 3,
+    img: Work3,
     title: 'IMDB-clone',
     details: [
       {
@@ -291,77 +319,73 @@ export const portfolio = [
   },
 
   {
-    id: 3,
-    img: Work3,
-    title: 'E-learning Platform',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'E-learning Platform',
-      },
-      {
-        icon: <FiUser />,
-        title: 'web framework : ',
-        desc: 'React js',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'HTML,CSS,Javascript',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Designing : ',
-        desc: 'Bootstrap 5',
-      },
-    ],
-  },
-
-  {
     id: 4,
     img: Work4,
-    title: 'Netflix-clone',
+    title: 'Chat-Application',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Netflix clone',
+        desc: 'Web-Socket Chat-Application',
       },
       {
         icon: <FiUser />,
         title: 'web framework : ',
-        desc: 'React js',
+        desc: 'React js , Node js',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'html,css',
+        title: 'Dependency : ',
+        desc: 'Web-Socket APIs',
       },
-   
+      // {
+      //   icon: <FiExternalLink />,
+      //   title: 'Designing : ',
+      //   desc: 'Bootstrap 5',
+      // },
     ],
   },
 
   {
     id: 5,
     img: Work5,
-    title: 'UTube clone',
+    title: 'To-do App',
     details: [
       {
+        icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'utube clone',
+        desc: 'To-do App',
       },
       {
-        title: 'Framework : ',
-        desc: 'React js',
+        icon: <FiUser />,
+        title: 'Languages Used : ',
+        desc: 'HTML, CSS, Vanilla JS',
       },
-      {
-        title: 'Language : ',
-        desc: 'React JS, Node JS',
-      },
-     
+ 
+   
     ],
   },
+
+  // {
+  //   id: 5,
+  //   img: Work5,
+  //   title: 'UTube clone',
+  //   details: [
+  //     {
+  //       title: 'Project : ',
+  //       desc: 'utube clone',
+  //     },
+  //     {
+  //       title: 'Framework : ',
+  //       desc: 'React js',
+  //     },
+  //     {
+  //       title: 'Language : ',
+  //       desc: 'React JS, Node JS',
+  //     },
+     
+  //   ],
+  // },
 
  /*  {
     id: 6,
